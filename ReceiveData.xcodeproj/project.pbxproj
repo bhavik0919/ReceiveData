@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F092EA2B1381152900E0B086 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F092EA2A1381152900E0B086 /* UIKit.framework */; };
+		F092EA2D1381152900E0B086 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F092EA2C1381152900E0B086 /* Foundation.framework */; };
+		F092EA2F1381152900E0B086 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F092EA2E1381152900E0B086 /* CoreGraphics.framework */; };
+		F092EA351381152900E0B086 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F092EA331381152900E0B086 /* InfoPlist.strings */; };
+		F092EA381381152900E0B086 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F092EA371381152900E0B086 /* main.m */; };
+		F092EA3B1381152900E0B086 /* ReceiveDataAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F092EA3A1381152900E0B086 /* ReceiveDataAppDelegate.m */; };
+		F092EA3E1381152900E0B086 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F092EA3C1381152900E0B086 /* MainWindow.xib */; };
+		F092EA411381152900E0B086 /* ReceiveDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F092EA401381152900E0B086 /* ReceiveDataViewController.m */; };
+		F092EA441381152900E0B086 /* ReceiveDataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F092EA421381152900E0B086 /* ReceiveDataViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F092EA261381152900E0B086 /* ReceiveData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReceiveData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F092EA2A1381152900E0B086 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F092EA2C1381152900E0B086 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F092EA2E1381152900E0B086 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F092EA321381152900E0B086 /* ReceiveData-Info.plist */ = {isa = PBXFileReference; path = "ReceiveData-Info.plist"; sourceTree = "<group>"; };
+		F092EA341381152900E0B086 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F092EA361381152900E0B086 /* ReceiveData-Prefix.pch */ = {isa = PBXFileReference; path = "ReceiveData-Prefix.pch"; sourceTree = "<group>"; };
+		F092EA371381152900E0B086 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F092EA391381152900E0B086 /* ReceiveDataAppDelegate.h */ = {isa = PBXFileReference; path = ReceiveDataAppDelegate.h; sourceTree = "<group>"; };
+		F092EA3A1381152900E0B086 /* ReceiveDataAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReceiveDataAppDelegate.m; sourceTree = "<group>"; };
+		F092EA3D1381152900E0B086 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		F092EA3F1381152900E0B086 /* ReceiveDataViewController.h */ = {isa = PBXFileReference; path = ReceiveDataViewController.h; sourceTree = "<group>"; };
+		F092EA401381152900E0B086 /* ReceiveDataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReceiveDataViewController.m; sourceTree = "<group>"; };
+		F092EA431381152900E0B086 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ReceiveDataViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F092EA231381152900E0B086 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F092EA2B1381152900E0B086 /* UIKit.framework in Frameworks */,
+				F092EA2D1381152900E0B086 /* Foundation.framework in Frameworks */,
+				F092EA2F1381152900E0B086 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F092EA1B1381152900E0B086 = {
+			isa = PBXGroup;
+			children = (
+				F092EA301381152900E0B086 /* ReceiveData */,
+				F092EA291381152900E0B086 /* Frameworks */,
+				F092EA271381152900E0B086 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F092EA271381152900E0B086 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F092EA261381152900E0B086 /* ReceiveData.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F092EA291381152900E0B086 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F092EA2A1381152900E0B086 /* UIKit.framework */,
+				F092EA2C1381152900E0B086 /* Foundation.framework */,
+				F092EA2E1381152900E0B086 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F092EA301381152900E0B086 /* ReceiveData */ = {
+			isa = PBXGroup;
+			children = (
+				F092EA391381152900E0B086 /* ReceiveDataAppDelegate.h */,
+				F092EA3A1381152900E0B086 /* ReceiveDataAppDelegate.m */,
+				F092EA3C1381152900E0B086 /* MainWindow.xib */,
+				F092EA3F1381152900E0B086 /* ReceiveDataViewController.h */,
+				F092EA401381152900E0B086 /* ReceiveDataViewController.m */,
+				F092EA421381152900E0B086 /* ReceiveDataViewController.xib */,
+				F092EA311381152900E0B086 /* Supporting Files */,
+			);
+			path = ReceiveData;
+			sourceTree = "<group>";
+		};
+		F092EA311381152900E0B086 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F092EA321381152900E0B086 /* ReceiveData-Info.plist */,
+				F092EA331381152900E0B086 /* InfoPlist.strings */,
+				F092EA361381152900E0B086 /* ReceiveData-Prefix.pch */,
+				F092EA371381152900E0B086 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F092EA251381152900E0B086 /* ReceiveData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F092EA471381152900E0B086 /* Build configuration list for PBXNativeTarget "ReceiveData" */;
+			buildPhases = (
+				F092EA221381152900E0B086 /* Sources */,
+				F092EA231381152900E0B086 /* Frameworks */,
+				F092EA241381152900E0B086 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReceiveData;
+			productName = ReceiveData;
+			productReference = F092EA261381152900E0B086 /* ReceiveData.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F092EA1D1381152900E0B086 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Chakra Interactive Pvt Ltd";
+			};
+			buildConfigurationList = F092EA201381152900E0B086 /* Build configuration list for PBXProject "ReceiveData" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F092EA1B1381152900E0B086;
+			productRefGroup = F092EA271381152900E0B086 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F092EA251381152900E0B086 /* ReceiveData */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F092EA241381152900E0B086 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F092EA351381152900E0B086 /* InfoPlist.strings in Resources */,
+				F092EA3E1381152900E0B086 /* MainWindow.xib in Resources */,
+				F092EA441381152900E0B086 /* ReceiveDataViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F092EA221381152900E0B086 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F092EA381381152900E0B086 /* main.m in Sources */,
+				F092EA3B1381152900E0B086 /* ReceiveDataAppDelegate.m in Sources */,
+				F092EA411381152900E0B086 /* ReceiveDataViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F092EA331381152900E0B086 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F092EA341381152900E0B086 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F092EA3C1381152900E0B086 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F092EA3D1381152900E0B086 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		F092EA421381152900E0B086 /* ReceiveDataViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F092EA431381152900E0B086 /* en */,
+			);
+			name = ReceiveDataViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F092EA451381152900E0B086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F092EA461381152900E0B086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		F092EA481381152900E0B086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReceiveData/ReceiveData-Prefix.pch";
+				INFOPLIST_FILE = "ReceiveData/ReceiveData-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F092EA491381152900E0B086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReceiveData/ReceiveData-Prefix.pch";
+				INFOPLIST_FILE = "ReceiveData/ReceiveData-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F092EA201381152900E0B086 /* Build configuration list for PBXProject "ReceiveData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F092EA451381152900E0B086 /* Debug */,
+				F092EA461381152900E0B086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F092EA471381152900E0B086 /* Build configuration list for PBXNativeTarget "ReceiveData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F092EA481381152900E0B086 /* Debug */,
+				F092EA491381152900E0B086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F092EA1D1381152900E0B086 /* Project object */;
+}
